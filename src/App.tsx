@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Button name='GET DATA' callBack={GetMeData} />
+      <Button name='GET  DATA' callBack={GetMeData} />
       <ul>
         {data.map((el) => {
           return (
